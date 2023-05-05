@@ -18,7 +18,6 @@ To run this project, you need to have:
 1. docker or docker-desktop
 2. kubernetes
 3. kubectl
-4. Node (Optional, only if you want to run test program)
 
 ### Installing
 
@@ -36,13 +35,7 @@ kubectl apply -f k8s/search_deployment.yaml
 kubectl apply -f k8s/search_service.yaml
 ```
 
-This will start the server and listen on port 30000. You can access the application in your web browser by visiting [http://localhost:30000](http://localhost:30000).
-
-You can also test the application by (you need node installed for this):
-
-```
-node .\simple_test_query.js
-```
+This will start the server and listen on port 3000. You can access the application in your web browser by visiting [http://localhost:3000](http://localhost:3000).
 
 If you also want to monitor using the dashboard then use:
 
