@@ -36,7 +36,7 @@ kubectl apply -f k8s/search_deployment.yaml
 kubectl apply -f k8s/search_service.yaml
 ```
 
-This will start the server and listen on port 3000. You can access the application in your web browser by visiting [http://localhost:3000](http://localhost:3000).
+This will start the server and listen on port 30000. You can access the application in your web browser by visiting [http://localhost:30000](http://localhost:30000).
 
 You can also test the application by (you need node installed for this):
 
